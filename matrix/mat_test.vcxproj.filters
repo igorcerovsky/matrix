@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="mat_test.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="matrix_lpack.h" />
+    <ClInclude Include="utilrnd.hpp" />
+    <ClInclude Include="matrix_lpack_blas.h" />
+    <ClInclude Include="matrix_igm.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="..\..\..\..\Program Files (x86)\IntelSWTools\compilers_and_libraries_2018.1.156\windows\mkl\lib\intel64_win\mkl_core_dll.lib">
+      <Filter>lib</Filter>
+    </Library>
+    <Library Include="..\..\..\..\Program Files (x86)\IntelSWTools\compilers_and_libraries_2018.1.156\windows\mkl\lib\intel64_win\mkl_intel_lp64_dll.lib">
+      <Filter>lib</Filter>
+    </Library>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="lib">
+      <UniqueIdentifier>{ea8b4681-e811-4e7c-b806-5a21b5d3d072}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
